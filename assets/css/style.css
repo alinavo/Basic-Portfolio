@@ -1,0 +1,60 @@
+
+.box{
+    background-color: #ffffff;
+    border-color: 1px black;
+    border-style: solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/* header */
+.header {
+    position: relative;
+    border-style: solid;
+    font-size: 30px;
+}
+
+/* links */
+.links {
+    float: right;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+
+/* "About Me" should this have bottom border? */
+h2{
+    color: #777777;
+    border-bottom: 3 px #777777;
+    border-style: solid;
+    font-size: 30px;
+}
+
+
+
+/* picture (opposite height & width bc rotated) */
+img {
+    border-radius: 8px;
+    padding: 10px;
+    float: left;
+    height: 250px;
+    width: 300px;
+}
+
+/* main about me paragraph */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    text-align: left;
+    line-height: normal; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #777777;
+    padding: 10px;
+}
