@@ -103,7 +103,7 @@ a:last-child {
 /* "About Me" */
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777777;
+    color: #4aaaa5;
     border-bottom: 1px solid #cccccc;
     font-size: 30px;
     padding-bottom: 20px;
@@ -126,6 +126,7 @@ h2{
     float: left;
     height: 250px;
     width: 300px;
+    font-size: 20px;
 }
 
 /* main about me paragraph */
@@ -161,7 +162,7 @@ h2{
  }
 
 #contact {
-	background: ffffff;
+	background: #ffffff;
 	padding:25px;
     margin-top:25px;
     margin-bottom: 50px;
