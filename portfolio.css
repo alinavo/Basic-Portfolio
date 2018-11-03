@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    position: aboslute;
+    padding-bottom: 50px;
+    left: 0;
+    top: 0;
+    height: 50px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom: 1px solid grey;
+    
+}
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    width: 300px;
+    height: auto;
+    font-size: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+
+.mainbox{
+    height: 960px;
+}
+
+
+.box{
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
